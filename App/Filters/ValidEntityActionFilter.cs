@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc.Filters;
 
 namespace App.Filters
 {
-    public class ValidEntityActionFilter : IActionFilter
+    public class GlobalValidEntityActionFilter : IActionFilter
     {
         public void OnActionExecuted(ActionExecutedContext context)
         {

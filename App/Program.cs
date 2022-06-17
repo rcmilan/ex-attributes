@@ -8,7 +8,7 @@ builder.Services.AddScoped<MonthAsyncActionFilter>();
 
 builder.Services.AddControllers(config =>
 {
-    config.Filters.Add(new ValidEntityActionFilter());
+    config.Filters.Add(new GlobalValidEntityActionFilter());
 });
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
