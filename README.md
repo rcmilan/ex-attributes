@@ -1,1 +1,2 @@
-# ex-attributes
+- [Filters](https://code-maze.com/action-filters-aspnetcore/)
+- [Attributes](https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/concepts/attributes/)
