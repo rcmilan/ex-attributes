@@ -20,11 +20,5 @@ namespace App.Controllers
         {
             return DateTime.Now.AddDays(addMonths).Month;
         }
-
-        [HttpGet("Year")]
-        public int GetYear(int addYears)
-        {
-            return DateTime.Now.AddDays(addYears).Year;
-        }
     }
 }
