@@ -1,5 +1,6 @@
 ﻿namespace App.Attributes
 {
+    [AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct, AllowMultiple = true)]
     public class AuthorAttribute : Attribute
     {
         private string name;
